@@ -31,5 +31,5 @@ function App() {
     </>
   )
 }
-
+import default from './main.jsx'
 <h1>Bienvenue sur ma nouvelle page React 🌟</h1>
