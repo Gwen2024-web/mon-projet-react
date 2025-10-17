@@ -1,4 +1,3 @@
-"homepage": "https://Gwen2024-web.github.io/mon-projet-react",
 
 {
   "name": "mon-projet-react",
@@ -16,6 +15,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "homepage": "https://Gwen2024-web.github.io/mon-projet-react",
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
