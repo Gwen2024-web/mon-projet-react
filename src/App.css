@@ -1,9 +1,19 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+html,
+ body,
+ #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  --background: white !important;
+  background-color: white;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column; /* empile les éléments verticalement */
+  align-items: center;    /* centre horizontalement */
+  text-align: center;
+  padding: 10px;
 }
 
 .texte-bas {
@@ -14,4 +24,70 @@
   text-align: center;
   padding: 20px;
   border-radius: 0 0 10px 10px;
+}
+
+.full-width-image {
+  width: 100vw;          /* prend toute la largeur */
+  height: auto;         /* conserve les proportions */
+  display: block;       /* évite les petits espaces blancs */
+}
+
+/* === Section principale === */
+.banniere {
+  width: 100vw; /* prend toute la largeur de la fenêtre */
+  height: 550px; /* hauteur de la bande (modifiable à ta convenance) */
+  background-image: url('./assets/CirclesBanniere.png');
+  background-size: cover; /* adapte l’image sans déformation */
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.CirclesProgramme1 {
+    width: 500px;          /* largeur fixe ou responsive */
+    height: 300px;         /* hauteur contrôlée */
+    padding: 20px;
+    background-image: url('./assets/CirclesProgramme1.png'); /* ton image dans src/images */
+    background-size: cover;       /* couvre le bloc sans se déformer */
+    display: flex;
+}
+
+.image-container {
+  height: 400px;
+  border: 2px solid #ccc;
+  position: relative; /* nécessaire pour les déplacements absolus */
+  background-image: url('./assets/CirclesProgramme2.png'); /* ton image dans src/images */
+}
+
+.image {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* === Programme : 3 images côte à côte === */
+.programmes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* espace entre les images */
+  margin: 40px 0;
+  flex-wrap: wrap; /* les images passent à la ligne sur petit écran */
+}
+
+.title-section {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  text-align: center;
 }
