@@ -62,7 +62,7 @@ html,
 }
 
 .image {
-  width: 250px;
+  width: 600px;
   height: auto;
   border-radius: 12px;
   display: block;
@@ -87,7 +87,18 @@ html,
 .page-title {
   font-size: 2rem;
   font-weight: bold;
+  font-family: 'Climate Crisis';
   color: black;
-  margin: 0;
+  margin: 20;
   text-align: center;
+}
+
+.extra-image-right {
+  position: relative;
+  left: 400px;
+}
+
+.extra-image-left {
+  position: relative;
+  right: 400px;
 }
