@@ -31,9 +31,11 @@ function App() {
       <section className="extras">
         <img src={RectangleCircles} alt="rect" className="extra-image" />
         <h1 className="page-title">À propos</h1>
-        <h1 className="page-title">Offre une place à tes potes !</h1>
-        <h1 className="page-title">Nous contacter : - Mail : maxime.georges056@gmail.com</h1>
-        <h1 className="page-title">- Réseaux : DM</h1>
+        <h1 className="bonus-texte">Offre une place à tes potes !</h1>
+        <div style={{ position: "relative"}}>
+          <h1 className="contact-texte1">Nous contacter : - Mail : maxime.georges056@gmail.com</h1>
+          <h1 className="contact-texte2">- Réseaux : DM</h1>
+        </div>
         <img src={CirclesBonus} alt="Bonus" className="extra-image-left" />
         <img src={CirclesTriangle} alt="Triangle" className="extra-image-right" />
       </section>
