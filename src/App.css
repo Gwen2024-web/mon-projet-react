@@ -108,25 +108,27 @@ html,
   font-weight: bold;
   font-family: 'Climate Crisis';
   color: rgb(0, 0, 0);
-  margin: 20;
+  position: absolute;
+  top: 200px;
+  right: 1280px;
 }
 
 .contact-texte1 {
   font-size: 2rem;
   font-weight: bold;
-  font-family: 'Climate Crisis';
+  font-family: "Cabin", sans-serif;
   color: black;
   position: absolute;
   top: 800px;
-  right: 70px;
+  right: 500px;
 }
 
 .contact-texte2 {
   font-size: 2rem;
   font-weight: bold;
-  font-family: 'Climate Crisis';
+  font-family: "Cabin", sans-serif;
   color: black;
   position: absolute;
   top: 850px;
-  right: 652px;
+  right: 875px;
 }
