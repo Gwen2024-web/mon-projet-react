@@ -1,4 +1,4 @@
-# React + Vite
+# Site web React Circles
 
 Une application React pour afficher le site web de l'évènement sportif Circles.
 
@@ -22,6 +22,7 @@ npm install
 npm run dev
 
 
+## React setup
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
