@@ -13,7 +13,7 @@ function App() {
 
   return (
      <>
-        <header className="banniere"></header>
+        <header className="w-full max-w-md mx-auto banniere"></header>
 
         <div className="title-section">
             <h1 className="page-title">Le Week end sportif hasardeux qui ouvre tes cercles</h1>
