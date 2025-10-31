@@ -93,15 +93,6 @@ html,
   text-align: center;
 }
 
-.extra-image-right {
-  position: relative;
-  left: 400px;
-}
-
-.extra-image-left {
-  position: relative;
-  right: 400px;
-}
 
 .bonus-texte {
   font-size: 2rem;
@@ -109,7 +100,7 @@ html,
   font-family: 'Climate Crisis';
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 200px;
+  top: 240px;
   right: 1280px;
 }
 
@@ -119,8 +110,8 @@ html,
   font-family: "Cabin", sans-serif;
   color: black;
   position: absolute;
-  top: 800px;
-  right: 500px;
+  top: 850px;
+  right: 480px;
 }
 
 .contact-texte2 {
@@ -129,6 +120,6 @@ html,
   font-family: "Cabin", sans-serif;
   color: black;
   position: absolute;
-  top: 850px;
-  right: 875px;
+  top: 900px;
+  right: 856px;
 }

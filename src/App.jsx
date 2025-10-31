@@ -13,14 +13,14 @@ function App() {
 
   return (
      <>
-        <header className="w-full max-w-md mx-auto banniere"></header>
+        <header className="banniere"></header>
 
         <div className="title-section">
             <h1 className="page-title">Le Week end sportif hasardeux qui ouvre tes cercles</h1>
-            <h1 className="page-title">Placeholder vidéo</h1>
+            <h1 className="mt-[20px] page-title">Placeholder vidéo</h1>
         </div>
-        <img src={RectangleCircles} alt="rect" className="extra-image" />
-        <h1 className="page-title">Le Programme</h1>
+        <img src={RectangleCircles} alt="rect" className="block mx-auto w-[98%]" />
+        <h1 className="mt-[20px] page-title">Le Programme</h1>
         <section className="programmes">
         <img src={CirclesProgramme1} alt="Programme 1" className="image" />
         <img src={CirclesProgramme2} alt="Programme 2" className="image" />
@@ -29,8 +29,8 @@ function App() {
 
       {/* Autres images */}
       <section className="extras">
-        <img src={RectangleCircles} alt="rect" className="extra-image" />
-        <h1 className="page-title">À propos</h1>
+        <img src={RectangleCircles} alt="rect" className="block mx-auto w-[98%]" />
+        <h1 className="mt-[20px] page-title">À propos</h1>
         <div style={{ position: "relative"}}>
           <h1 className="bonus-texte">Offre une place à tes potes !</h1>
         </div>
@@ -38,8 +38,8 @@ function App() {
           <h1 className="contact-texte1">Nous contacter : - Mail : maxime.georges056@gmail.com</h1>
           <h1 className="contact-texte2">- Réseaux : DM</h1>
         </div>
-        <img src={CirclesBonus} alt="Bonus" className="extra-image-left" />
-        <img src={CirclesTriangle} alt="Triangle" className="extra-image-right" />
+        <img src={CirclesBonus} alt="Bonus" className="absolute top-[2200px] right-[1380px]" />
+        <img src={CirclesTriangle} alt="Triangle" className="absolute top-[1950px] left-[1350px]" />
       </section>
       </>
   );
