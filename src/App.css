@@ -99,9 +99,6 @@ html,
   font-weight: bold;
   font-family: 'Climate Crisis';
   color: rgb(0, 0, 0);
-  position: absolute;
-  top: 240px;
-  right: 1280px;
 }
 
 .contact-texte1 {
@@ -109,9 +106,6 @@ html,
   font-weight: bold;
   font-family: "Cabin", sans-serif;
   color: black;
-  position: absolute;
-  top: 850px;
-  right: 480px;
 }
 
 .contact-texte2 {
@@ -119,7 +113,4 @@ html,
   font-weight: bold;
   font-family: "Cabin", sans-serif;
   color: black;
-  position: absolute;
-  top: 900px;
-  right: 856px;
 }
