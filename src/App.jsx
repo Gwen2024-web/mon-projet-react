@@ -20,10 +20,10 @@ function App() {
 
       {/* === Titre principal === */}
       <div className="title-section text-center mt-10 mb-10">
-        <h1 className="page-title text-4xl max-md:text-2xl">
+        <h1 className="page-title h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[600px]">
           Le Week end sportif hasardeux qui ouvre tes cercles
         </h1>
-        <h1 className="page-title mt-5 text-2xl max-md:text-lg">
+        <h1 className="page-title mt-5 h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[600px]">
           Placeholder vidéo
         </h1>
       </div>
@@ -32,11 +32,11 @@ function App() {
       <img
         src={RectangleCircles}
         alt="rect"
-        className="block mx-auto w-[98%] max-md:w-[90%] h-auto"
+        className="block mx-auto w-[98%] max-md:w-[90%] h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[600px]"
       />
 
       {/* === Programme === */}
-      <h1 className="page-title mt-10 text-4xl max-md:text-2xl">
+      <h1 className="page-title mt-10 h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[600px]">
         Le Programme
       </h1>
 
@@ -63,33 +63,33 @@ function App() {
         <img
           src={RectangleCircles}
           alt="rect"
-          className="block mx-auto w-[98%] max-md:w-[90%] h-auto"
+          className="block mx-auto w-[98%] max-md:w-[90%] h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[600px]"
         />
-        <h1 className="page-title mt-6 text-4xl max-md:text-2xl">À propos</h1>
+        <h1 className="page-title mt-6 h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[600px]">À propos</h1>
 
-        <div className="relative top-[150px] right-[630px]">
+        <div className="absolute top-[240px] right-[1280px] h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[10px]">
           <h1 className="bonus-texte text-2xl max-md:text-lg static max-md:mt-4">
             Offre une place à tes potes !
           </h1>
         </div>
 
-        <div className="relative top-[720px] right-[-50px]">
-          <h1 className="contact-texte1 text-2xl max-md:text-base static">
+        <div className="absolute top-[850px] w-[900px] right-[480px] h-auto">
+          <h1 className="contact-texte1 text-2xl max-md:w-[2600px]">
             Nous contacter : - Mail : maxime.georges056@gmail.com
           </h1>
-          <h1 className="contact-texte2 text-2xl max-md:text-base static ml-[-114px] mt-[10px]">
+          <h1 className="contact-texte2 text-2xl max-md:w-[2600px] ml-[-57px] mt-[10px]">
             - Réseaux : DM
           </h1>
         </div>
         <img
           src={CirclesBonus}
           alt="Bonus"
-          className="absolute top-[300px] right-[1380px] w-[500px] h-auto max-md:top-[600px] max-md:right-[20px] max-md:w-[120px]"
+          className="absolute top-[300px] right-[1380px] w-[500px] h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[350px]"
         />
         <img
           src={CirclesTriangle}
           alt="Triangle"
-          className="absolute top-[60px] left-[1350px] w-[560px] h-auto max-md:top-[450px] max-md:left-[20px] max-md:w-[120px]"
+          className="absolute top-[60px] left-[1350px] w-[560px] h-auto max-md:top-[200px] max-md:left-[400px] max-md:w-[350px]"
         />
       </section>
     </>
