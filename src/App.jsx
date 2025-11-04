@@ -81,8 +81,6 @@ function App() {
             - Réseaux : DM
           </h1>
         </div>
-
-        {/* Décorations bonus (uniquement visibles sur grand écran) */}
         <img
           src={CirclesBonus}
           alt="Bonus"
@@ -91,7 +89,7 @@ function App() {
         <img
           src={CirclesTriangle}
           alt="Triangle"
-          className="absolute top-[80px] left-[1350px] w-[560px] h-auto max-md:top-[450px] max-md:left-[20px] max-md:w-[120px]"
+          className="absolute top-[60px] left-[1350px] w-[560px] h-auto max-md:top-[450px] max-md:left-[20px] max-md:w-[120px]"
         />
       </section>
     </>
