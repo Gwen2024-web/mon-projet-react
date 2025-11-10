@@ -26,9 +26,16 @@ function App() {
         <h1 className="page-title h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[600px]">
           Le Week end sportif hasardeux qui ouvre tes cercles
         </h1>
-        <h1 className="page-title mt-5 h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[600px]">
-          Placeholder vidéo
-        </h1>
+        <div className="video-container flex justify-center mt-8">
+          <video
+            className="w-full max-w-[1200px] h-auto rounded-lg shadow-lg max-md:max-w-[90%]"
+            controls
+            preload="metadata"
+          >
+            <source src="https://storage.googleapis.com/legoff_agency/circles.mp4" type="video/mp4" />
+            Votre navigateur ne supporte pas la lecture de vidéos.
+          </video>
+        </div>
       </div>
 
       {/* === Rectangle central === */}
