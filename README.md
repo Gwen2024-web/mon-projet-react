@@ -3,7 +3,7 @@
 Une application React pour afficher le site web de l'évènement sportif Circles.
 
 ## 🚀 Lien du site
-👉 [https://Gwen2024-web.github.io/mon-projet-react](https://ton-utilisateur.github.io/mon-projet-react)
+👉 [https://Gwen2024-web.github.io/mon-projet-react](https://Gwen2024-web.github.io/mon-projet-react)
 
 
 ## 🧰 Technologies utilisées
