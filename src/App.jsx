@@ -17,7 +17,7 @@ function App() {
       {/* === Bannière principale === */}
       <header
         className="banniere flex flex-row justify-center items-center h-[550px] max-md:flex-col
-         max-md:h-[300px] max-md:bg-contain max-md:bg-center max-md:bg-no-repeat"
+         max-md:h-[200px] max-md:bg-contain max-md:bg-center max-md:bg-no-repeat"
         style={{ backgroundImage: `url(${CirclesBanniere})` }}
       ></header>
 
