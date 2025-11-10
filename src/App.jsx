@@ -50,21 +50,16 @@ function App() {
         Le Programme
       </h1>
 
-      <section className="programmes flex flex-wrap justify-center gap-10 mt-8">
+      <section className="programmes flex flex-wrap justify-center mt-8">
         <img
           src={CirclesProgramme1}
           alt="Programme 1"
-          className="block mx-auto w-full max-w-[600px] h-auto rounded-xl transition-transform duration-300 ease-in-out"
-        />
-        <img
-          src={CirclesProgramme2}
-          alt="Programme 2"
-          className="block mx-auto w-full max-w-[600px] h-auto rounded-xl transition-transform duration-300 ease-in-out"
+          className="block w-full max-w-[600px] h-auto rounded-xl transition-transform duration-300 ease-in-out"
         />
         <img
           src={CirclesProgramme3}
           alt="Programme 3"
-          className="block mx-auto w-full max-w-[600px] h-auto rounded-xl transition-transform duration-300 ease-in-out"
+          className="block w-full max-w-[600px] h-auto rounded-xl transition-transform duration-300 ease-in-out"
         />
       </section>
 

@@ -59,8 +59,8 @@ html,
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px; /* espace entre les images */
-  margin: 40px 0;
+  gap: 80px; /* espace entre les images */
+  margin: 40px;
   flex-wrap: wrap; /* les images passent à la ligne sur petit écran */
 }
 
