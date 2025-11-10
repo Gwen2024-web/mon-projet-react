@@ -35,7 +35,6 @@ html,
 /* === Section principale === */
 .banniere {
   width: 100vw; /* prend toute la largeur de la fenêtre */
-  height: 550px; /* hauteur de la bande (modifiable à ta convenance) */
   background-image: url('./assets/CirclesBanniere.png');
   background-size: cover; /* adapte l’image sans déformation */
   background-position: center;

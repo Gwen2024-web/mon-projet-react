@@ -16,7 +16,7 @@ function App() {
     <>
       {/* === Bannière principale === */}
       <header
-        className="banniere flex flex-row justify-center items-center max-md:flex-col
+        className="banniere flex flex-row justify-center items-center h-[550px] max-md:flex-col
          max-md:h-[300px] max-md:bg-contain max-md:bg-center max-md:bg-no-repeat"
         style={{ backgroundImage: `url(${CirclesBanniere})` }}
       ></header>
@@ -35,7 +35,7 @@ function App() {
       <img
         src={RectangleCircles}
         alt="rect"
-        className="block mx-auto w-[98%] max-md:w-[90%] h-auto"
+        className="block mx-auto w-[98%] h-auto"
       />
 
       {/* === Programme === */}
@@ -66,17 +66,23 @@ function App() {
         <img
           src={RectangleCircles}
           alt="rect"
-          className="block mx-auto w-[98%] max-md:w-[90%] h-auto"
+          className="block mx-auto w-[98%] h-auto"
         />
         <h1 className="page-title mt-6 h-auto max-md:top-[200px] max-md:right-[250px] max-md:w-[600px]">À propos</h1>
 
-        <div className="relative flex flex-col items-center text-center mt-[150px] mr-[1280px] max-md:translate-y-[-150px] max-md:translate-x-[50px]">
-          <h1 className="bonus-texte text-base sm:text-lg md:text-2xl lg:text-2xl xl:text-3xl lg:text-2xl">
+        <div className="relative w-full flex justify-start mt-20">
+          <div className="relative">
+          <img
+          src={CirclesBonus}
+          alt="Bonus"
+          className="w-[500px] translate-x-[40px] translate-y-[140px] h-auto max-md:w-[250px] max-md:translate-y-[60px]"
+        />
+          <h1 className="bonus-texte absolute top-[10%] left-[1%] text-3xl font-semibold text-white drop-shadow-lg whitespace-nowrap max-md:text-lg max-md:top-[5%]">
             Offre une place à tes potes !
           </h1>
         </div>
-
-        <div className="relative flex flex-col items-center text-center mt-[600px] ml-[10px] max-md:mt-[180px] max-md:translate-x-[-160px]">
+        </div>
+        <div className="relative flex flex-col items-center text-center ml-[10px] max-md:mt-[80px]">
           <h1 className="contact-texte1 text-base sm:text-lg md:text-2xl lg:text-2xl xl:text-3xl lg:text-2xl">
             Nous contacter : - Mail : maxime.georges056@gmail.com
           </h1>
@@ -85,14 +91,9 @@ function App() {
           </h1>
         </div>
         <img
-          src={CirclesBonus}
-          alt="Bonus"
-          className="absolute top-[300px] right-[1380px] w-[500px] h-auto max-md:top-[200px] max-md:right-[1075px] max-md:w-[250px]"
-        />
-        <img
           src={CirclesTriangle}
           alt="Triangle"
-          className="absolute top-[60px] left-[1350px] w-[560px] h-auto max-md:top-[95px] max-md:left-[380px] max-md:w-[250px]"
+          className="absolute top-[60px] left-[1350px] w-[560px] h-auto max-md:top-[100px] max-md:left-[380px] max-md:w-[250px]"
         />
       </section>
     </>
