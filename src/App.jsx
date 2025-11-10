@@ -79,7 +79,7 @@ function App() {
           alt="Bonus"
           className="w-[500px] translate-x-[40px] translate-y-[140px] h-auto max-md:w-[150px] max-md:translate-y-[60px]"
         />
-          <h1 className="bonus-texte absolute top-[10%] left-[1%] text-3xl font-semibold text-white drop-shadow-lg whitespace-nowrap max-md:text-lg max-sm:text-base max-md:top-[5%]">
+          <h1 className="bonus-texte absolute top-[10%] left-[1%] text-3xl font-semibold text-white drop-shadow-lg max-md:text-lg max-sm:text-base max-md:top-[5%]">
             Offre une place à tes potes !
           </h1>
         </div>
