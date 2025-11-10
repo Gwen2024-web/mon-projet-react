@@ -45,14 +45,6 @@ html,
   left: 0;
 }
 
-.CirclesProgramme1 {
-    width: 500px;          /* largeur fixe ou responsive */
-    height: 300px;         /* hauteur contrôlée */
-    padding: 20px;
-    background-image: url('./assets/CirclesProgramme1.png'); /* ton image dans src/images */
-    background-size: cover;       /* couvre le bloc sans se déformer */
-    display: flex;
-}
 
 .image-container {
   height: 400px;
@@ -61,13 +53,7 @@ html,
   background-image: url('./assets/CirclesProgramme2.png'); /* ton image dans src/images */
 }
 
-.image {
-  width: 600px;
-  height: auto;
-  border-radius: 12px;
-  display: block;
-  transition: transform 0.3s ease;
-}
+
 
 /* === Programme : 3 images côte à côte === */
 .programmes {
@@ -95,21 +81,18 @@ html,
 
 
 .bonus-texte {
-  font-size: 2rem;
   font-weight: bold;
   font-family: 'Climate Crisis';
   color: rgb(0, 0, 0);
 }
 
 .contact-texte1 {
-  font-size: 2rem;
   font-weight: bold;
   font-family: "Cabin", sans-serif;
   color: black;
 }
 
 .contact-texte2 {
-  font-size: 2rem;
   font-weight: bold;
   font-family: "Cabin", sans-serif;
   color: black;
