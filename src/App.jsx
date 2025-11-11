@@ -72,31 +72,36 @@ function App() {
         />
         <h1 className="page-title mt-6 max-w-[90%] mx-auto text-2xl sm:text-3xl md:text-4xl break-words">À propos</h1>
 
-        <div className="relative w-full flex justify-start mt-20">
-          <div className="relative">
+        <div className="relative w-full flex flex-row justify-start items-start flex-wrap gap-8 mt-20">
+          <div className="relative flex-shrink-0">
           <img
           src={CirclesBonus}
           alt="Bonus"
-          className="w-[500px] translate-x-[40px] translate-y-[140px] h-auto max-md:w-[150px] max-md:translate-y-[60px]"
+          className="w-[500px] translate-x-[20px] translate-y-[140px] h-auto max-md:w-[150px] max-md:translate-y-[60px]"
         />
-          <h1 className="bonus-texte absolute top-[10%] left-[1%] text-3xl text-white drop-shadow-lg break-words max-md:text-lg max-sm:text-base max-md:top-[5%] max-sm:top-[3%]">
+          <h1 className="bonus-texte absolute top-[8%] left-[1%] text-3xl text-white drop-shadow-lg break-words max-md:text-lg max-sm:text-base max-md:top-[5%] max-sm:top-[-6%] max-sm:left-[19%] max-md:mx-auto">
             Offre une place à tes potes !
           </h1>
         </div>
         </div>
         <div className="relative flex flex-col items-center text-center mt-10 px-2 sm:px-4">
-          <h1 className="contact-texte1 text-base max-sm:text-sm sm:text-lg md:text-2xl lg:text-2xl xl:text-3xl break-words max-w-[90%] mx-auto">
+          <h1 className="contact-texte1 text-base max-md:text-sm sm:text-lg md:text-2xl lg:text-2xl xl:text-3xl max-md:mt-[30px] break-words max-md:max-w-[85%] max-w-[90%] mx-auto">
             Nous contacter : - Mail : maxime.georges056@gmail.com
           </h1>
           <h1 className="contact-texte2 text-base max-sm:text-sm sm:text-lg md:text-2xl lg:text-2xl xl:text-3xl mt-2 break-words max-w-[90%] mx-auto">
             - Réseaux : DM
           </h1>
         </div>
+        <div className="relative w-full flex justify-end items-start mt-[-825px] max-lg:mt-[-60px] max-md:flex-col max-md:justify-center max-md:items-center max-md:mt-4">
         <img
           src={CirclesTriangle}
           alt="Triangle"
-          className="absolute top-[60px] right-[5%] w-[300px] h-auto max-lg:top-[100px] max-lg:right-[3%] max-lg:w-[200px] max-md:static max-md:mt-6 max-md:mx-auto max-md:w-[100px]"
+          className="w-[250px] h-auto mr-[5%]
+                     lg:w-[500px]
+                     max-lg:w-[220px]
+                     max-md:w-[150px] max-md:mr-[-230px] max-md:mt-[-470px]"
         />
+        </div>
       </section>
     </>
   );
