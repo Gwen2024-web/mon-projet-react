@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/mon-projet-react/",
+  test: {
+    globals: true,        // Permet d'utiliser test(), expect() sans import explicite
+    environment: 'jsdom', // Simule le DOM pour React
+    include: ['src/**/*.test.{js,jsx}', 'src/**/*.spec.{js,jsx}'],
+  },
 })

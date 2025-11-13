@@ -1,7 +1,5 @@
 
 
-
-
 import CirclesBanniere from "./assets/CirclesBanniere.png";
 import CirclesProgramme1 from "./assets/CirclesProgramme1.png";
 import CirclesProgramme2 from "./assets/CirclesProgramme2.png";
