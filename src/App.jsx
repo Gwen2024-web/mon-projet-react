@@ -29,6 +29,7 @@ function App() {
             className="w-full max-w-[1200px] h-auto rounded-lg shadow-lg max-md:max-w-[90%]"
             controls
             preload="metadata"
+            data-testid="main-video"
           >
             <source src="https://storage.googleapis.com/legoff_agency/circles.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture de vidéos.

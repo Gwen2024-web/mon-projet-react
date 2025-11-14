@@ -13,7 +13,7 @@ test("vérifie que la page principale s'affiche correctement", () => {
   ).toBeInTheDocument();
 
   // Vérifie que la vidéo est bien présente
-  const video = screen.getByRole("video", { hidden: true });
+  const video = screen.getByTestId("main-video");
   expect(video).toBeInTheDocument();
 
   // Vérifie la présence du titre “Le Programme”
