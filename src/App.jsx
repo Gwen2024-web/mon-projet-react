@@ -1,5 +1,3 @@
-
-
 import CirclesBanniere from "./assets/CirclesBanniere.png";
 import CirclesProgramme1 from "./assets/CirclesProgramme1.png";
 import CirclesProgramme2 from "./assets/CirclesProgramme2.png";
@@ -9,100 +7,32 @@ import CirclesTriangle from "./assets/CirclesTriangle.png";
 import RectangleCircles from "./assets/RectangleCircles.png";
 import './App.css';
 
+
+const programmeCards = [
+  { image : CirclesProgramme1, label: "Le concept"},
+  { image : CirclesProgramme2, label: "Les activités"},
+  { image : CirclesProgramme3, label: "Le week-end"}
+];
+
 function App() {
   return (
-    <>
-      {/* === Bannière principale === */}
-      <header
-        className="banniere flex flex-row justify-center items-center h-[550px] bg-cover bg-center max-md:flex-col
-         max-lg:h-[400px] max-md:h-[200px] max-md:bg-contain max-md:bg-center max-md:bg-no-repeat"
-        style={{ backgroundImage: `url(${CirclesBanniere})` }}
-      ></header>
-
-      {/* === Titre principal === */}
-      <div className="title-section text-center mt-10 mb-10">
-        <h1 className="page-title text-3xl sm:text-4xl md:text-5xl font-semibold max-w-[90%] mx-auto break-words max-md:text-xl max-sm:text-lg">
-          Le Week end sportif hasardeux qui ouvre tes cercles
-        </h1>
-        <div className="video-container flex justify-center mt-8">
-          <video
-            className="w-full max-w-[1200px] h-auto rounded-lg shadow-lg max-md:max-w-[90%]"
-            controls
-            preload="metadata"
-            data-testid="main-video"
-          >
-            <source src="https://storage.googleapis.com/legoff_agency/circles.mp4" type="video/mp4" />
-            Votre navigateur ne supporte pas la lecture de vidéos.
-          </video>
-        </div>
-      </div>
-
-      {/* === Rectangle central === */}
-      <img
-        src={RectangleCircles}
-        alt="rect"
-        className="block mx-auto w-[90%] max-md:max-w-[600px] h-auto"
-      />
-
-      {/* === Programme === */}
-      <h1 className="page-title text-center mt-10 max-w-[90%] mx-auto text-2xl sm:text-3xl md:text-4xl font-semibold break-words">
-        Le Programme
-      </h1>
-
-      <section className="programmes flex flex-wrap justify-center mt-8 px-2 sm:px-4 gap-4">
-        <img
-          src={CirclesProgramme1}
-          alt="Programme 1"
-          className="w-[90%] sm:w-[45%] md:w-[300px] lg:w-[400px] xl:w-[600px] h-auto rounded-xl transition-transform duration-300 ease-in-out"
-        />
-        <img
-          src={CirclesProgramme3}
-          alt="Programme 3"
-          className="w-[90%] sm:w-[45%] md:w-[300px] lg:w-[400px] xl:w-[600px] h-auto rounded-xl transition-transform duration-300 ease-in-out"
-        />
+    <main>
+      <section className="hero" id="accueil">
+        <img className="hero__image" src={CirclesBanniere} alt="Participants réunis au festival Circles" />
+        <div className="hero__shade" />
+        <header className="nav wrap">
+          <a className="nav__brand" href="#accueil" aria-label="Circles, accueil">circles</a>
+          <nav aria-label="Navigation principale"><a href="#concept">Le concept</a><a href="#programme">Programme</a><a href="#contact">Contact</a></nav>
+        </header>
+        <div className="hero__content wrap"><p className="eyebrow">10-12 octobre ⸳ 50 personnes</p><h1>Le weekend-sportif<br />qui agrandit tes cercles.</h1><p className="hero__intro">Trois jours de sport, de son et de rencontres inattendues, loin du quotidien.</p><a className="button button--light" href="#programme">Découvrir l'expérience <span aria-hidden="true"></span></a></div>
+        <p className="hero__scroll">Faire défiler <span aria-hidden="true">↓</span></p>
       </section>
-
-      {/* === Section “À propos” === */}
-      <section className="extras text-center mt-16 mb-20 px-2 sm:px-4">
-        <img
-          src={RectangleCircles}
-          alt="rect"
-          className="block w-[90%] max-md:max-w-[600px] mx-auto h-auto"
-        />
-        <h1 className="page-title mt-6 max-w-[90%] mx-auto text-2xl sm:text-3xl md:text-4xl break-words">À propos</h1>
-
-        <div className="relative w-full flex flex-row justify-start items-start flex-wrap gap-8 mt-20">
-          <div className="relative flex-shrink-0">
-          <img
-          src={CirclesBonus}
-          alt="Bonus"
-          className="w-[500px] translate-x-[20px] translate-y-[140px] h-auto max-md:w-[150px] max-md:translate-y-[60px]"
-        />
-          <h1 className="bonus-texte absolute top-[8%] left-[1%] text-3xl text-white drop-shadow-lg break-words max-md:text-lg max-sm:text-base max-md:top-[5%] max-sm:top-[-6%] max-sm:left-[19%] max-md:mx-auto">
-            Offre une place à tes potes !
-          </h1>
-        </div>
-        </div>
-        <div className="relative flex flex-col items-center text-center mt-10 px-2 sm:px-4">
-          <h1 className="contact-texte1 text-base max-md:text-sm sm:text-lg md:text-2xl lg:text-2xl xl:text-3xl max-md:mt-[30px] break-words max-md:max-w-[85%] max-w-[90%] mx-auto">
-            Nous contacter : - Mail : maxime.georges056@gmail.com
-          </h1>
-          <h1 className="contact-texte2 text-base max-sm:text-sm sm:text-lg md:text-2xl lg:text-2xl xl:text-3xl mt-2 break-words max-w-[90%] mx-auto">
-            - Réseaux : DM
-          </h1>
-        </div>
-        <div className="relative w-full flex justify-end items-start mt-[-825px] max-lg:mt-[-60px] max-md:flex-col max-md:justify-center max-md:items-center max-md:mt-4">
-        <img
-          src={CirclesTriangle}
-          alt="Triangle"
-          className="w-[250px] h-auto mr-[5%]
-                     lg:w-[500px]
-                     max-lg:w-[220px]
-                     max-md:w-[150px] max-md:mr-[-230px] max-md:mt-[-470px]"
-        />
-        </div>
-      </section>
-    </>
+      <section className="statement wrap" id="concept"><p className="eyebrow">01 ⸳ L'idée</p><div><h2>Venir seul.<br /><em>Repartir entouré.</em></h2><p>Circles est un week-end à taille humaine : des jeux, du sport et des moments simples pour créer de vraies connexions.</p></div></section>
+      <section className="video-section"><div className="wrap video-section__grid"><div><p className="eyebrow">02 ⸳ L'ambiance</p><h2>Une parenthèse<br /> qui bouge.</h2></div><div className="video-frame"><video controls preload="metadata" data-testid="main-video" aria-label="Film de présentation de l'événement Circles"><source src="https://storage.googleapis.com/legoff_agency/circles.mp4" type="video/mp4" /></video></div></div></section>
+      <section className="programme wrap" id="programme"><div className="section-heading"><div><p className="eyebrow">03 ⸳ Au programme</p><h2>Trois jours<br />pour se rencontrer.</h2></div><p>Des défis collectifs, des respirations, des repas qui s'étirent et tout ce qu'on ne prévoit pas.</p></div><div className="programme-grid">{programmeCards.map((card, index) => <article className={`programme-card programme-card--${index+1}`} key={card.label}><img src={card.image} alt={card.label} loading="lazy" /><p>{`0${index+1}`}</p></article>)}</div></section>
+      <section className="invite"><div className="invite__image"><img src={CirclesBonus} alt="Illustration Circles" loading="lazy" /></div><div className="invite__content"><p className="eyebrow">Le bonus</p><h2>Viens avec tes<br /><em>personnes préférées.</em></h2><p>À deux ou à dix, l'aventure est encore plus belle quand elle se raconte à plusieurs.</p><a className="button" href="mailto:nicolas.pichard@gmail.com">Je viens avec ma bande <span aria-hidden="true">↗</span></a></div></section>
+      <footer className="footer" id="contact"><img className="footer__shape" src={CirclesTriangle} alt="" aria-hidden="true" /><div className="wrap footer__content"><p className="eyebrow">On se retrouve là-bas ?</p><a className="footer__mail" href="mailto:nicolas.pichard@gmail.com">nicolas.pichard<br />@gmail.com</a><div className="footer__bottom"><span>Circles ⸳ 2026</span><span>DM Instragram pour toute question</span></div></div></footer>
+    </main>
   );
 }
 
